@@ -1,35 +1,27 @@
 # Password Manager
 
-## Description
-Password Manager is a simple and secure application to store and manage your passwords. It uses AES encryption to ensure that your passwords are stored securely. This project is developed using Java and provides a console-based interface for adding and retrieving passwords.
+# Secure Password Manager (Java + AES-256)  
+**MCA Cybersecurity Project – Amity University Online**  
+**Your Name** | December 2025
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Project-blueviolet?style=for-the-badge)
+![Encryption](https://img.shields.io/badge/AES--256-Encryption-green?style=for-the-badge)
+
+## Project Overview
+A console-based password manager that securely stores usernames and passwords using **AES-256 encryption**.  
+All data is encrypted on disk and protected by a single master password.
+
+**Educational purpose only** – demonstrates real-world encryption concepts taught in cybersecurity courses.
 
 ## Features
-- Add new passwords for different sites.
-- Retrieve stored passwords.
-- Secure storage using AES encryption.
+- Master password protection (hashed with salt)
+- AES-256 encryption for every stored credential
+- Add / View / List passwords
+- Zero external dependencies – pure Java
+- Runs instantly on any machine with Java installed
 
-## Technologies Used
-- Java
-- AES Encryption
-
-## Setup Instructions
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/lakshay1341/PasswordManager.git
-   cd PasswordManager
-2. **Compile the Java files:**
-   javac PasswordManager.java
-3. **Run the application:**
-   java PasswordManager
-
-### Usage
-
-**Add Password:**
-1. Choose the “Add Password” option.
-2. Enter the site name and password.
-3. The password will be encrypted and stored securely.
-
-**Retrieve Password:**
-1. Choose the “Retrieve Password” option.
-2. Enter the site name.
-3. The stored password will be decrypted and displayed.
+## How to Run (Tested & Working – Dec 2025)
+```bash
+javac PasswordManager.java
+java PasswordManager
