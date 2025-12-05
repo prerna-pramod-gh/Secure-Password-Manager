@@ -2,7 +2,7 @@
 
 # Secure Password Manager (Java + AES-256)  
 **MCA Cybersecurity Project – Amity University Online**  
-**Your Name** | December 2025
+**Prerna Pramod** | December 2025
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Project-blueviolet?style=for-the-badge)
