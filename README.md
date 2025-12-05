@@ -26,18 +26,4 @@ All data is encrypted on disk and protected by a single master password.
 javac PasswordManager.java
 java PasswordManager
 
-What I Learned
 
-Implementing symmetric encryption (AES) in Java
-Secure password hashing and salting
-File handling for persistent encrypted storage
-Clean console UI for user interaction
-
-**## Future Improvements** **(you can add these later)**
-```bash
-GUI using JavaFX/Swing
-Password strength meter
-Clipboard auto-copy (with timer clear)
-
-Made for learning secure coding practices
-Never use this for real passwords – for demo & academic use only
