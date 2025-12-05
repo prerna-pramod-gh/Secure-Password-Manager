@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.security.SecureRandom;
 
+
 public class PasswordManager {
     private static final String ALGORITHM = "AES";
     private static final byte[] keyValue = "TheBestSecretKey".getBytes(); // 16 bytes for AES-128 (good enough for demo)
@@ -144,3 +145,4 @@ public class PasswordManager {
         return new String(decValue);
     }
 }
+
